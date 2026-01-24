@@ -9,12 +9,15 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     public int speed = 4;
     private SpriteRenderer sp;
+    Animator animator;
+
     // Start is called before the first frame update
-   private void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sp = transform.Find("Sprite").GetComponent<SpriteRenderer>();
         sp = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -22,5 +25,19 @@ public class PlayerMovement : MonoBehaviour
     {
         float xInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(xInput * speed, rb.velocity.y);
+
+        float horizontal = Input.GetAxisRaw("Horizontal");
+
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+
+        if (horizontal > 0) //if moving and facing right
+        {
+            animator.SetBool("FacingRight", true);
+        }
+        else if (horizontal < 0)
+        {
+            animator.SetBool("FacingRight", false);
+        }
+
     }
 } 
