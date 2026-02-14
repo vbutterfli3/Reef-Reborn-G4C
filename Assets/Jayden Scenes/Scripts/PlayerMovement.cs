@@ -8,8 +8,11 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     public int speed = 4;
+    public int pullForce = -100; 
     private SpriteRenderer sp;
     Animator animator;
+    bool isInWater = false;
+
 
     // Start is called before the first frame update
     private void Start()
@@ -23,21 +26,58 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        float xInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(xInput * speed, rb.velocity.y);
+        float xInput = 0;
+        if ( isInWater )
+        {
+            xInput = Input.GetAxis("Horizontal");
+            float yInput = Input.GetAxis("Vertical");
+            rb.velocity = new Vector2(xInput * speed, yInput);
+        }
+        else
+        {
+            xInput = Input.GetAxisRaw("Horizontal");
+            rb.velocity = new Vector2(xInput * speed, rb.velocity.y);
 
-        float horizontal = Input.GetAxisRaw("Horizontal");
+        }
 
-        animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
-        if (horizontal > 0) //if moving and facing right
+        animator.SetFloat("Speed", Mathf.Abs(xInput));
+
+        if (xInput > 0) //if moving and facing right
         {
             animator.SetBool("FacingRight", true);
         }
-        else if (horizontal < 0)
+        else if (xInput < 0)
         {
             animator.SetBool("FacingRight", false);
         }
 
+
     }
-} 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Water")
+        {
+            animator.Play("idleSwim");
+            StartCoroutine(PullHer());
+            isInWater = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Water")
+
+        {
+            animator.Play("idlebreathing");
+            rb.gravityScale = 1;
+            isInWater = false;
+        }
+    }
+
+    private IEnumerator PullHer()
+    {
+        rb.gravityScale = 20;
+        yield return new WaitForSeconds(0.5f);
+        rb.gravityScale = 0;
+    }
+}
