@@ -8,6 +8,7 @@ public class PlayerJump : MonoBehaviour
 
     // Forces
     public float JumpForce = 5f;
+    public float WaterJumpForce = 500f;
     public float FallForce = 5;
     private Vector2 GravityVector;
 
@@ -19,16 +20,12 @@ public class PlayerJump : MonoBehaviour
     public Transform FeetCollider;
     public LayerMask GroundMask;
     private bool GroundCheck;
-
-    // Water Check
-    public bool WaterCheck;
-    private string WaterTag = "Water";
-
-
+    private PlayerMovement playerMovement;
 
     // Start is called before the first frame update
     void Start()
     {
+        playerMovement = GetComponent<PlayerMovement>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -39,27 +36,28 @@ public class PlayerJump : MonoBehaviour
         GroundCheck = Physics2D.OverlapCapsule(FeetCollider.position, new Vector2(CapsuleHeight, CapsuleRadius), CapsuleDirection2D.Horizontal, 0, GroundMask);
 
      // Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && (GroundCheck || WaterCheck))
+        if (Input.GetKeyDown(KeyCode.Space) && (GroundCheck || playerMovement.isInWater))
         {
-            rb.velocity = new Vector2(rb.velocity.x, JumpForce);
+            if (playerMovement.isInWater)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, WaterJumpForce);
+            }
+            else
+            {
+                rb.velocity = new Vector2(rb.velocity.x, JumpForce);
+            }
         }
 
      // Falling
-        if (rb.velocity.x < 0 && ! WaterCheck)
+        if (rb.velocity.x < 0 && !playerMovement.isInWater)
         {
             rb.velocity += GravityVector * (FallForce * Time.deltaTime);
         }
-    }
 
-     //Water Check
-        private void OnTriggerEnter2D(Collider2D collision)
-         {
-        if (collision.CompareTag(WaterTag)) { WaterCheck = true; }
-         }
-    // If Left Water
-       private void OnTriggerExit2D(Collider2D collision)
+        if(rb.velocity.y < -20)
         {
-        if (collision.CompareTag(WaterTag)) { WaterCheck = false; }
+            rb.velocity = new Vector2(rb.velocity.x, -20);
         }
+    }
 }
 
