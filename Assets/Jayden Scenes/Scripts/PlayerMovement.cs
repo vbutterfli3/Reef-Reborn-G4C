@@ -8,13 +8,10 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     public int speed = 4;
-    public int jumpForce = 100; 
+    public int pullForce = -100; 
     private SpriteRenderer sp;
-    private BoxCollider2D BoxCollider2D;
     Animator animator;
-    public bool isInWater = false;
-    public float rayDistance = 1f;
-    public LayerMask waterLayer;
+    bool isInWater = false;
 
 
     // Start is called before the first frame update
@@ -24,17 +21,17 @@ public class PlayerMovement : MonoBehaviour
         sp = transform.Find("Sprite").GetComponent<SpriteRenderer>();
         sp = transform.GetChild(0).GetComponent<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
-        BoxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
     private void Update()
     {
         float xInput = 0;
-        if (isInWater)
+        if ( isInWater )
         {
             xInput = Input.GetAxis("Horizontal");
-            rb.velocity = new Vector2(xInput * speed, rb.velocity.y);
+            float yInput = Input.GetAxis("Vertical");
+            rb.velocity = new Vector2(xInput * speed, yInput);
         }
         else
         {
@@ -54,14 +51,15 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("FacingRight", false);
         }
-       
-    }
 
+
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Water")
         {
             animator.Play("idleSwim");
+            StartCoroutine(PullHer());
             isInWater = true;
         }
     }
