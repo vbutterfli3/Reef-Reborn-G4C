@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,14 +105,14 @@ TextureImporter:
         width: 5
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f20d8b6654b62484eb3ba82ec225bc9c
-      internalID: 859612092
+      spriteID: e250eba73bcd99a448c0eff1f39af425
+      internalID: -1417869346
       vertices: []
       indices: 
       edges: []
@@ -126,14 +126,14 @@ TextureImporter:
         width: 13
         height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8d16a53896e6c24d88cbbb8bd10dd24
-      internalID: 1590145470
+      spriteID: c5d9cd0d6a3c60b4caf7dd6d952e1554
+      internalID: -1552518897
       vertices: []
       indices: 
       edges: []
@@ -142,19 +142,19 @@ TextureImporter:
       name: reef-reborn-ocean-trash-pixilart_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 41
         y: 87
-        width: 9
+        width: 3
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 960921f71925f804cad59932b31e64e8
-      internalID: -434375741
+      spriteID: d03e0f9cd95a1844280b8a4cb321d5b5
+      internalID: -301189035
       vertices: []
       indices: 
       edges: []
@@ -168,14 +168,14 @@ TextureImporter:
         width: 24
         height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 777310c0ed9766045a9701fff0e930a8
-      internalID: 5280235
+      spriteID: a9680ae0c37313d4a9dc82a9c027d1ed
+      internalID: -169234416
       vertices: []
       indices: 
       edges: []
@@ -189,14 +189,14 @@ TextureImporter:
         width: 13
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b8fc534156e55d4799d230e226936c8
-      internalID: 1823160838
+      spriteID: 54ee99218b966f34195fd1332a85c636
+      internalID: 732131910
       vertices: []
       indices: 
       edges: []
@@ -210,14 +210,14 @@ TextureImporter:
         width: 11
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ed5a88869f047e46bc93273b9f31de4
-      internalID: 1659576436
+      spriteID: 3030f2062b566c541bc0de3e68a2e20f
+      internalID: -19781338
       vertices: []
       indices: 
       edges: []
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6822a58b77b449438c33b59837d39c0
-      internalID: -519436618
+      spriteID: c524472890bd4a94c805084f67b4234d
+      internalID: 1764326527
       vertices: []
       indices: 
       edges: []
@@ -258,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02e0e1c8ce0efab49add6139bc0f6f29
-      internalID: -2026459462
+      spriteID: 231d63067eb7b9344a47c83551f16fe5
+      internalID: -1738815140
       vertices: []
       indices: 
       edges: []
@@ -279,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03db0f18e63307148be6fa05fb9639b0
-      internalID: -355133031
+      spriteID: d8ace5adf4802ea47abe8c6623a7f380
+      internalID: 852119239
       vertices: []
       indices: 
       edges: []
@@ -289,10 +289,10 @@ TextureImporter:
       name: reef-reborn-ocean-trash-pixilart_9
       rect:
         serializedVersion: 2
-        x: 41
+        x: 64
         y: 87
-        width: 3
-        height: 11
+        width: 9
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a8406c190daff940814edffdf9221ac
-      internalID: 2136989269
+      spriteID: 8bc4d5bd2f6bbe54cbdf85758498ace9
+      internalID: -1773588274
       vertices: []
       indices: 
       edges: []
@@ -317,16 +317,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      reef-reborn-ocean-trash-pixilart_0: 859612092
-      reef-reborn-ocean-trash-pixilart_1: 1590145470
-      reef-reborn-ocean-trash-pixilart_2: -434375741
-      reef-reborn-ocean-trash-pixilart_3: 5280235
-      reef-reborn-ocean-trash-pixilart_4: 1823160838
-      reef-reborn-ocean-trash-pixilart_5: 1659576436
-      reef-reborn-ocean-trash-pixilart_6: -519436618
-      reef-reborn-ocean-trash-pixilart_7: -2026459462
-      reef-reborn-ocean-trash-pixilart_8: -355133031
-      reef-reborn-ocean-trash-pixilart_9: 2136989269
+      reef-reborn-ocean-trash-pixilart_0: -1417869346
+      reef-reborn-ocean-trash-pixilart_1: -1552518897
+      reef-reborn-ocean-trash-pixilart_2: -301189035
+      reef-reborn-ocean-trash-pixilart_3: -169234416
+      reef-reborn-ocean-trash-pixilart_4: 732131910
+      reef-reborn-ocean-trash-pixilart_5: -19781338
+      reef-reborn-ocean-trash-pixilart_6: 1764326527
+      reef-reborn-ocean-trash-pixilart_7: -1738815140
+      reef-reborn-ocean-trash-pixilart_8: 852119239
+      reef-reborn-ocean-trash-pixilart_9: -1773588274
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
