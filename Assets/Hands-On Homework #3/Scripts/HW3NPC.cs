@@ -19,8 +19,8 @@ public class HW3NPC : MonoBehaviour
         if(collision.tag == HW3Structs.Tags.playerTag)
         {
             _talkIcon.SetActive(true);
-            collision.GetComponent<HW3PlayerDialogue>().CopyDialogue(dialogue);
-            collision.GetComponent<HW3PlayerDialogue>().SetCanSpeak(true);
+            collision.GetComponent<PlayerDialogue>().CopyDialogue(dialogue);
+            collision.GetComponent<PlayerDialogue>().SetCanSpeak(true);
         }
     }
 
@@ -29,7 +29,7 @@ public class HW3NPC : MonoBehaviour
         if (collision.tag == HW3Structs.Tags.playerTag)
         {
             _talkIcon.SetActive(false);
-            collision.GetComponent<HW3PlayerDialogue>().SetCanSpeak(false);
+            collision.GetComponent<PlayerDialogue>().SetCanSpeak(false);
         }
     }
 

@@ -27,7 +27,7 @@ public class FishMove : MonoBehaviour
         timeOffset = Random.Range(0f, 10f); 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Move(); //moving randomly back and forth 
         Bob(); //when it bounces up and down

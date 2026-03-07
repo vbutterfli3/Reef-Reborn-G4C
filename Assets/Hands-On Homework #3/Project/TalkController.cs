@@ -32,7 +32,6 @@ public class TalkController : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
         _dialogueCanvas = GetComponent<Canvas>();
         _dialogueText = GameObject.Find($"Dialogue_Canvas").transform.Find($"TalkText").GetComponent<TextMeshProUGUI>();
-        _character = GameObject.Find($"Dialogue_Canvas").transform.Find($"Panel").transform.Find($"Character").GetComponent<Image>();
     }
     
     //Allows player continue forward in the conversation 

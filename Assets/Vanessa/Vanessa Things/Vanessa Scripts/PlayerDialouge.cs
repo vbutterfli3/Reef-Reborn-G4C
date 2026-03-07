@@ -29,6 +29,7 @@ public class PlayerDialogue : MonoBehaviour
             {
                 isSpeaking = false;
                 _talkPanel.SetActive(false);
+                Physics2D.simulationMode = SimulationMode2D.FixedUpdate;
             }
             else
             {
@@ -38,10 +39,12 @@ public class PlayerDialogue : MonoBehaviour
         }
         else if (canSpeak && Input.GetKeyDown(KeyCode.E))
         {
+            Physics2D.simulationMode = SimulationMode2D.Script;
             isSpeaking = true;
             _talkPanel.SetActive(true);
             _talkIndex = 0;
             Split();
+
         }
     }
 
