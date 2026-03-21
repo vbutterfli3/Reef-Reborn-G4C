@@ -2508,7 +2508,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1642120121}
+  - {fileID: 816119550}
+  - {fileID: 519150743}
+  - {fileID: 1306104994}
+  - {fileID: 1201850096}
   m_Father: {fileID: 798642686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &372577830
@@ -3249,6 +3254,315 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &519150742
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 350834786}
+    m_Modifications:
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1816914563, guid: 9252f11b1bfb3834ab430e573207d2a9, type: 3}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: 'Player: "I went to go talk to the mayor and he told me that he would
+        be willing to try and switch to renewable energy but we need to collect puplic
+        support!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: 'Player: "We need to get people sign our petition to prove that people
+        actually care" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: 'Benny: "Ah that makes sense, we need people to care about making a
+        change for any change to happen!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: 'Benny: "Something similar happened in China, but instead of reefs it
+        was their air quality"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: 'Benny: "Change was only able to happen once people knew and cared" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: 'Player: "I''m going to find people in the streets and see if I can
+        get them to sign!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: 'Benny: "Perfect, while you do that, I''ll go door to door and get people
+        who are at home to sign!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: 'Player: " Okay! Thank you so much!!!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: 'Benny: "We got this! See you after you talk to the locals"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: 'Player: "Like a scientifical reason? So this isn''t just a weird phenomenon
+        happening"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[10]
+      value: 'Benny: "Nope and this might be a lot to take in but Australia is the
+        3rd largest Fossil Fuel exporter, along with countries like Russia and the
+        U.S."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: 'Benny: "Those Fossil Fuels are then burned and release a Greenhouse
+        Gas called Carbon Dioxide, you know, what we breath out and plants breath
+        in?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[12]
+      value: 'Player: "Yeah yeah I know about Carbon Dioxide, but what does any of
+        this have to do with the reef being warm and dull??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[13]
+      value: 'Benny: "Just stay with me for a second, Carbon Dioxide hold heat in
+        the Earth, which leads to Climate Change, meaning warmer temperatures in
+        our air AND in our waters" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[14]
+      value: 'Player: "Ohhhh I see I see, so thats why the reef feels so hot!! But
+        how does that affect the coral?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[15]
+      value: 'Benny: "Our reef is actually experiencing severe Coral Bleaching right
+        now"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[16]
+      value: 'Player: "What''s Coral Bleaching???" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[17]
+      value: 'Benny: "So as we all know Coral is an animal, and they live happily
+        with an algae called zooxanthelae"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[18]
+      value: 'Benny: "The zooxanthelae is actually what gives all these coral their
+        vibrant colors!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[19]
+      value: 'Player: "Oh that''s so cool! So the coral and zooxanthelae are like
+        roommates!?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[20]
+      value: 'Benny: "Yup, and they both need each other to live, the zooxanthelae
+        gives the coral food and the coral gives zooxanthelae a home!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[21]
+      value: 'Benny: "But when the water starts becoming too warm, the coral starts
+        getting hot and uncomfortable" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[22]
+      value: 'Benny: "And because it''s so hot, it lets go of all the zooxanthelae,
+        thinking that thats the cause of them being so hot"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[23]
+      value: 'Player: "So kinda like when you are hot and you take off your jacket??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[24]
+      value: 'Benny: "Exactly! But they need each other, so the coral ends up losing
+        its color and starving :(" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[25]
+      value: 'Player: "Oh No! Thats so sad..."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[26]
+      value: 'Player: "is there anything we can do to try and help them?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[27]
+      value: 'Benny: "Well if the world was to switch to renewable energy, instead
+        of Fossil fuels, we would be able to reverse climate change and save our
+        oceans" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[28]
+      value: 'Player: "Wait, what is renewable energy??"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[29]
+      value: 'Benny: "It''s basically clean energy from Earths natural resources,
+        like wind, water, and the sun!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[30]
+      value: 'Benny: "I''ve been waiting for our town to switch to renewable energy,
+        but I can''t get anyone to listen to me" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[31]
+      value: 'Player: "What!?!?! That''s ridiculous, do they even know how important
+        this is" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[32]
+      value: 'Benny: "I don''t think anyone actually knows the damage that''s being
+        done" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[33]
+      value: 'Player: "This is crazy! I''m going to see if I can talk to the mayor!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[34]
+      value: 'Player: "Thanks for letting me know what''s going on, see you around" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[35]
+      value: 'Benny: "No problem, bye and good luck!!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 94.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1708391
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Name
+      value: talking npc kiara
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -5.7658334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 519150745}
+  m_SourcePrefab: {fileID: 100100000, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+--- !u!4 &519150743 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 519150742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &519150744 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 519150742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &519150745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519150744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362a990f71f48684381ef8ee183d4d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerinv: {fileID: 1533475967}
 --- !u!1 &526843915
 GameObject:
   m_ObjectHideFlags: 0
@@ -6028,7 +6342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &798642686
 Transform:
   m_ObjectHideFlags: 0
@@ -6130,6 +6444,311 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &816119549
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 350834786}
+    m_Modifications:
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 911397137, guid: a92e324a63639c246a049f32e3115f7c, type: 3}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: 'Player: "Hi, I was wondering if you would like to sign my petition
+        to keep our coral reef safe!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: 'Zy: "Sure, I''d love too! But what is the petition speciffically about?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: 'Player: "My friend and I are going around trying to get people to sign
+        our petition for the mayor to switch to renewable energy" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: 'Player: "So that trash stays out of the reef and the reef doesn''t
+        heat up anymore"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: 'Zy: "Ohh, I wish I would''ve thought of something like that sooner!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: 'Zy: "My family and I supply all the fruits to this town and the tourists
+        keep coming up to us, asking why the reef tours keep getting cancelled"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: 'Zy: "The reef attracts tourists to our town and without them, my family
+        gets less business and we were going to have to close down soon :(" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: 'Player: "You guys run all the fruit stands? I''ve bought fruit from
+        you guys!! I won''t let you guys close down"  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: 'Zy: "Aw thank you so much, we really can''t ignore this issue anymore" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: 'Zy: "Pass me the pen, I''ll sign it" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[10]
+      value: 'Player: "Thank you so much! Good luck with your business!!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: 'Benny: "Those Fossil Fuels are then burned and release a Greenhouse
+        Gas called Carbon Dioxide, you know, what we breath out and plants breath
+        in?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[12]
+      value: 'Player: "Yeah yeah I know about Carbon Dioxide, but what does any of
+        this have to do with the reef being warm and dull??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[13]
+      value: 'Benny: "Just stay with me for a second, Carbon Dioxide hold heat in
+        the Earth, which leads to Climate Change, meaning warmer temperatures in
+        our air AND in our waters" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[14]
+      value: 'Player: "Ohhhh I see I see, so thats why the reef feels so hot!! But
+        how does that affect the coral?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[15]
+      value: 'Benny: "Our reef is actually experiencing severe Coral Bleaching right
+        now"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[16]
+      value: 'Player: "What''s Coral Bleaching???" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[17]
+      value: 'Benny: "So as we all know Coral is an animal, and they live happily
+        with an algae called zooxanthelae"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[18]
+      value: 'Benny: "The zooxanthelae is actually what gives all these coral their
+        vibrant colors!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[19]
+      value: 'Player: "Oh that''s so cool! So the coral and zooxanthelae are like
+        roommates!?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[20]
+      value: 'Benny: "Yup, and they both need each other to live, the zooxanthelae
+        gives the coral food and the coral gives zooxanthelae a home!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[21]
+      value: 'Benny: "But when the water starts becoming too warm, the coral starts
+        getting hot and uncomfortable" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[22]
+      value: 'Benny: "And because it''s so hot, it lets go of all the zooxanthelae,
+        thinking that thats the cause of them being so hot"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[23]
+      value: 'Player: "So kinda like when you are hot and you take off your jacket??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[24]
+      value: 'Benny: "Exactly! But they need each other, so the coral ends up losing
+        its color and starving :(" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[25]
+      value: 'Player: "Oh No! Thats so sad..."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[26]
+      value: 'Player: "is there anything we can do to try and help them?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[27]
+      value: 'Benny: "Well if the world was to switch to renewable energy, instead
+        of Fossil fuels, we would be able to reverse climate change and save our
+        oceans" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[28]
+      value: 'Player: "Wait, what is renewable energy??"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[29]
+      value: 'Benny: "It''s basically clean energy from Earths natural resources,
+        like wind, water, and the sun!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[30]
+      value: 'Benny: "I''ve been waiting for our town to switch to renewable energy,
+        but I can''t get anyone to listen to me" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[31]
+      value: 'Player: "What!?!?! That''s ridiculous, do they even know how important
+        this is" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[32]
+      value: 'Benny: "I don''t think anyone actually knows the damage that''s being
+        done" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[33]
+      value: 'Player: "This is crazy! I''m going to see if I can talk to the mayor!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[34]
+      value: 'Player: "Thanks for letting me know what''s going on, see you around" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[35]
+      value: 'Benny: "No problem, bye and good luck!!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 91.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1708391
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Name
+      value: talking npc zy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -5.7658334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 816119552}
+  m_SourcePrefab: {fileID: 100100000, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+--- !u!4 &816119550 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 816119549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &816119551 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 816119549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &816119552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816119551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362a990f71f48684381ef8ee183d4d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerinv: {fileID: 1533475967}
 --- !u!1001 &818679215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7836,7 +8455,7 @@ PrefabInstance:
     - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
       propertyPath: dialogue.Array.data[2]
       value: 'Player: "This might sound weird, but I was told to talk to you about
-        the state of the reef right now?"'
+        the state of the reef?"'
       objectReference: {fileID: 0}
     - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
       propertyPath: dialogue.Array.data[3]
@@ -7845,7 +8464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: 'Benny: "Yeah, the people from our town keep dumping their tgrash into
+      value: 'Benny: "Yeah, the people from our town keep dumping their trash into
         the reef"'
       objectReference: {fileID: 0}
     - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
@@ -10452,7 +11071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 595, y: 612}
+  m_AnchoredPosition: {x: 595, y: 406}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1168036780
@@ -10636,6 +11255,314 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1201850095
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 350834786}
+    m_Modifications:
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -610372826, guid: a92e324a63639c246a049f32e3115f7c, type: 3}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: 'Player: "Sorry to bother, but would you be willing to sign my petition
+        on supporting our local reef?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: "Am\xE9lie: \"Oh actually I'm just visiting for the month but my reef
+        tour got cancelled today\" "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: "Am\xE9lie: \"I came all this way to see the famous coral reef but I
+        had no idea it was struggling\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: 'Player: "Honestly, me too. I came here for the summer to dive in the
+        water and see the wildlife but when I first got in, it was warm and covered
+        with trash" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: "Am\xE9lie: \"That's so sad, I know I'm not from here but if signing
+        your petition helps, I'll do it!\" "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: 'Player: "Thank you so much, just sign right here!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: "Am\xE9lie: \"Good luck!\" "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: 'Player: " Okay! Thank you so much!!!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: 'Benny: "We got this! See you after you talk to the locals"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: 'Player: "Like a scientifical reason? So this isn''t just a weird phenomenon
+        happening"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[10]
+      value: 'Benny: "Nope and this might be a lot to take in but Australia is the
+        3rd largest Fossil Fuel exporter, along with countries like Russia and the
+        U.S."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: 'Benny: "Those Fossil Fuels are then burned and release a Greenhouse
+        Gas called Carbon Dioxide, you know, what we breath out and plants breath
+        in?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[12]
+      value: 'Player: "Yeah yeah I know about Carbon Dioxide, but what does any of
+        this have to do with the reef being warm and dull??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[13]
+      value: 'Benny: "Just stay with me for a second, Carbon Dioxide hold heat in
+        the Earth, which leads to Climate Change, meaning warmer temperatures in
+        our air AND in our waters" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[14]
+      value: 'Player: "Ohhhh I see I see, so thats why the reef feels so hot!! But
+        how does that affect the coral?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[15]
+      value: 'Benny: "Our reef is actually experiencing severe Coral Bleaching right
+        now"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[16]
+      value: 'Player: "What''s Coral Bleaching???" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[17]
+      value: 'Benny: "So as we all know Coral is an animal, and they live happily
+        with an algae called zooxanthelae"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[18]
+      value: 'Benny: "The zooxanthelae is actually what gives all these coral their
+        vibrant colors!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[19]
+      value: 'Player: "Oh that''s so cool! So the coral and zooxanthelae are like
+        roommates!?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[20]
+      value: 'Benny: "Yup, and they both need each other to live, the zooxanthelae
+        gives the coral food and the coral gives zooxanthelae a home!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[21]
+      value: 'Benny: "But when the water starts becoming too warm, the coral starts
+        getting hot and uncomfortable" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[22]
+      value: 'Benny: "And because it''s so hot, it lets go of all the zooxanthelae,
+        thinking that thats the cause of them being so hot"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[23]
+      value: 'Player: "So kinda like when you are hot and you take off your jacket??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[24]
+      value: 'Benny: "Exactly! But they need each other, so the coral ends up losing
+        its color and starving :(" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[25]
+      value: 'Player: "Oh No! Thats so sad..."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[26]
+      value: 'Player: "is there anything we can do to try and help them?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[27]
+      value: 'Benny: "Well if the world was to switch to renewable energy, instead
+        of Fossil fuels, we would be able to reverse climate change and save our
+        oceans" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[28]
+      value: 'Player: "Wait, what is renewable energy??"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[29]
+      value: 'Benny: "It''s basically clean energy from Earths natural resources,
+        like wind, water, and the sun!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[30]
+      value: 'Benny: "I''ve been waiting for our town to switch to renewable energy,
+        but I can''t get anyone to listen to me" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[31]
+      value: 'Player: "What!?!?! That''s ridiculous, do they even know how important
+        this is" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[32]
+      value: 'Benny: "I don''t think anyone actually knows the damage that''s being
+        done" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[33]
+      value: 'Player: "This is crazy! I''m going to see if I can talk to the mayor!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[34]
+      value: 'Player: "Thanks for letting me know what''s going on, see you around" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[35]
+      value: 'Benny: "No problem, bye and good luck!!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 100.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1708391
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Name
+      value: "talking npc Am\xE9lie"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -5.7658334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 1201850098}
+  m_SourcePrefab: {fileID: 100100000, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+--- !u!4 &1201850096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 1201850095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1201850097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 1201850095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1201850098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201850097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362a990f71f48684381ef8ee183d4d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerinv: {fileID: 1533475967}
 --- !u!1001 &1217987856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11250,6 +12177,314 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1306104993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 350834786}
+    m_Modifications:
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 189941903, guid: 9252f11b1bfb3834ab430e573207d2a9, type: 3}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: 'Player: "Hey, I''m trying to get people to support my petition supporting
+        the reefs"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: 'Finn: "The reefs? Aren''t they just filled with trash and junk now?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: 'Player: "Yes! And its hurting the ecosystem, the animals and plants
+        can''t survive in those conditions" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: 'Finn: "Yeah I''m a surfer and my board keeps getting tangled in the
+        trash, sometimes the trash even makes me wipeout" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: 'Finn: "It''s so irritating, I haven''t surfed in a whiled because of
+        it, but now there''s not much for me to do"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: 'FInn: "My friends and I don''t even want to go near the ocean anymore,
+        it''s gross" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: 'Player: "Well, I''ve actually been in the water cleaning it lately
+        and if you sign my petition, we''d be able to clean the reef on a much larger
+        scale!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: 'Finn: "Really? I don''t know why I''ve never thought of actually cleaning
+        the reef myself, that''s kinda genius" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: 'Finn: "I''ll totally sign your paper dude"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: 'Player: "You can tell your friends too and soon enough, you''ll be
+        able to surf again" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[10]
+      value: 'Finn: "For sure, hand me the paper thing" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: 'Benny: "Those Fossil Fuels are then burned and release a Greenhouse
+        Gas called Carbon Dioxide, you know, what we breath out and plants breath
+        in?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[12]
+      value: 'Player: "Yeah yeah I know about Carbon Dioxide, but what does any of
+        this have to do with the reef being warm and dull??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[13]
+      value: 'Benny: "Just stay with me for a second, Carbon Dioxide hold heat in
+        the Earth, which leads to Climate Change, meaning warmer temperatures in
+        our air AND in our waters" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[14]
+      value: 'Player: "Ohhhh I see I see, so thats why the reef feels so hot!! But
+        how does that affect the coral?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[15]
+      value: 'Benny: "Our reef is actually experiencing severe Coral Bleaching right
+        now"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[16]
+      value: 'Player: "What''s Coral Bleaching???" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[17]
+      value: 'Benny: "So as we all know Coral is an animal, and they live happily
+        with an algae called zooxanthelae"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[18]
+      value: 'Benny: "The zooxanthelae is actually what gives all these coral their
+        vibrant colors!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[19]
+      value: 'Player: "Oh that''s so cool! So the coral and zooxanthelae are like
+        roommates!?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[20]
+      value: 'Benny: "Yup, and they both need each other to live, the zooxanthelae
+        gives the coral food and the coral gives zooxanthelae a home!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[21]
+      value: 'Benny: "But when the water starts becoming too warm, the coral starts
+        getting hot and uncomfortable" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[22]
+      value: 'Benny: "And because it''s so hot, it lets go of all the zooxanthelae,
+        thinking that thats the cause of them being so hot"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[23]
+      value: 'Player: "So kinda like when you are hot and you take off your jacket??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[24]
+      value: 'Benny: "Exactly! But they need each other, so the coral ends up losing
+        its color and starving :(" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[25]
+      value: 'Player: "Oh No! Thats so sad..."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[26]
+      value: 'Player: "is there anything we can do to try and help them?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[27]
+      value: 'Benny: "Well if the world was to switch to renewable energy, instead
+        of Fossil fuels, we would be able to reverse climate change and save our
+        oceans" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[28]
+      value: 'Player: "Wait, what is renewable energy??"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[29]
+      value: 'Benny: "It''s basically clean energy from Earths natural resources,
+        like wind, water, and the sun!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[30]
+      value: 'Benny: "I''ve been waiting for our town to switch to renewable energy,
+        but I can''t get anyone to listen to me" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[31]
+      value: 'Player: "What!?!?! That''s ridiculous, do they even know how important
+        this is" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[32]
+      value: 'Benny: "I don''t think anyone actually knows the damage that''s being
+        done" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[33]
+      value: 'Player: "This is crazy! I''m going to see if I can talk to the mayor!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[34]
+      value: 'Player: "Thanks for letting me know what''s going on, see you around" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[35]
+      value: 'Benny: "No problem, bye and good luck!!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 97.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1708391
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Name
+      value: talking npc finn
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -5.7658334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 1306104996}
+  m_SourcePrefab: {fileID: 100100000, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+--- !u!4 &1306104994 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 1306104993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1306104995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 1306104993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1306104996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306104995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362a990f71f48684381ef8ee183d4d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerinv: {fileID: 1533475967}
 --- !u!1001 &1312068337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74798,6 +76033,315 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1642120120
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 350834786}
+    m_Modifications:
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1749281303, guid: 9252f11b1bfb3834ab430e573207d2a9, type: 3}
+    - target: {fileID: 1224224317435694482, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: 'Player: "I went to go talk to the mayor and he told me that he would
+        be willing to try and switch to renewable energy but we need to collect puplic
+        support!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: 'Player: "We need to get people sign our petition to prove that people
+        actually care" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: 'Benny: "Ah that makes sense, we need people to care about making a
+        change for any change to happen!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: 'Benny: "Something similar happened in China, but instead of reefs it
+        was their air quality"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: 'Benny: "Change was only able to happen once people knew and cared" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: 'Player: "I''m going to find people in the streets and see if I can
+        get them to sign!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: 'Benny: "Perfect, while you do that, I''ll go door to door and get people
+        who are at home to sign!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: 'Player: " Okay! Thank you so much!!!"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: 'Benny: "We got this! See you after you talk to the locals"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: 'Player: "Like a scientifical reason? So this isn''t just a weird phenomenon
+        happening"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[10]
+      value: 'Benny: "Nope and this might be a lot to take in but Australia is the
+        3rd largest Fossil Fuel exporter, along with countries like Russia and the
+        U.S."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: 'Benny: "Those Fossil Fuels are then burned and release a Greenhouse
+        Gas called Carbon Dioxide, you know, what we breath out and plants breath
+        in?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[12]
+      value: 'Player: "Yeah yeah I know about Carbon Dioxide, but what does any of
+        this have to do with the reef being warm and dull??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[13]
+      value: 'Benny: "Just stay with me for a second, Carbon Dioxide hold heat in
+        the Earth, which leads to Climate Change, meaning warmer temperatures in
+        our air AND in our waters" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[14]
+      value: 'Player: "Ohhhh I see I see, so thats why the reef feels so hot!! But
+        how does that affect the coral?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[15]
+      value: 'Benny: "Our reef is actually experiencing severe Coral Bleaching right
+        now"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[16]
+      value: 'Player: "What''s Coral Bleaching???" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[17]
+      value: 'Benny: "So as we all know Coral is an animal, and they live happily
+        with an algae called zooxanthelae"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[18]
+      value: 'Benny: "The zooxanthelae is actually what gives all these coral their
+        vibrant colors!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[19]
+      value: 'Player: "Oh that''s so cool! So the coral and zooxanthelae are like
+        roommates!?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[20]
+      value: 'Benny: "Yup, and they both need each other to live, the zooxanthelae
+        gives the coral food and the coral gives zooxanthelae a home!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[21]
+      value: 'Benny: "But when the water starts becoming too warm, the coral starts
+        getting hot and uncomfortable" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[22]
+      value: 'Benny: "And because it''s so hot, it lets go of all the zooxanthelae,
+        thinking that thats the cause of them being so hot"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[23]
+      value: 'Player: "So kinda like when you are hot and you take off your jacket??" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[24]
+      value: 'Benny: "Exactly! But they need each other, so the coral ends up losing
+        its color and starving :(" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[25]
+      value: 'Player: "Oh No! Thats so sad..."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[26]
+      value: 'Player: "is there anything we can do to try and help them?" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[27]
+      value: 'Benny: "Well if the world was to switch to renewable energy, instead
+        of Fossil fuels, we would be able to reverse climate change and save our
+        oceans" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[28]
+      value: 'Player: "Wait, what is renewable energy??"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[29]
+      value: 'Benny: "It''s basically clean energy from Earths natural resources,
+        like wind, water, and the sun!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[30]
+      value: 'Benny: "I''ve been waiting for our town to switch to renewable energy,
+        but I can''t get anyone to listen to me" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[31]
+      value: 'Player: "What!?!?! That''s ridiculous, do they even know how important
+        this is" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[32]
+      value: 'Benny: "I don''t think anyone actually knows the damage that''s being
+        done" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[33]
+      value: 'Player: "This is crazy! I''m going to see if I can talk to the mayor!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[34]
+      value: 'Player: "Thanks for letting me know what''s going on, see you around" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641175210428784259, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: dialogue.Array.data[35]
+      value: 'Benny: "No problem, bye and good luck!!" '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 87.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1708391
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_Name
+      value: talking npc benny (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -5.7658334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 1642120123}
+  m_SourcePrefab: {fileID: 100100000, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+--- !u!4 &1642120121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2741854173681740130, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 1642120120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1642120122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7159296443536290887, guid: 2ed84303b3c1c3b44a85ef4e464a50c5, type: 3}
+  m_PrefabInstance: {fileID: 1642120120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1642120123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642120122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362a990f71f48684381ef8ee183d4d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerinv: {fileID: 1533475967}
 --- !u!1 &1644628747
 GameObject:
   m_ObjectHideFlags: 0
