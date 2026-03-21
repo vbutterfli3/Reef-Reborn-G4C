@@ -29,8 +29,9 @@ public class FishMove : MonoBehaviour
 
     void FixedUpdate()
     {
-        Move(); //moving randomly back and forth 
-        Bob(); //when it bounces up and down
+        Move(); 
+        Bob(); 
+        Flip();
     }
 
     void Move()
