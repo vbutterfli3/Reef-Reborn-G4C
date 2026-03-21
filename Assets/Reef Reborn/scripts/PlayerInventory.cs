@@ -56,17 +56,20 @@ public class PlayerInventory : MonoBehaviour
             lvl2.SetActive(true);
             wall1.SetActive(false);
             lvl1.SetActive(false);
+            SFXFactory.Instance.PlayLevelUp();
         }
         if (TalkedToActivist && TalkedToMayor && totalCollected >= 10)
         {
             lvl3.SetActive(true);
             lvl2.SetActive(false);
+            SFXFactory.Instance.PlayLevelUp();
 
         }
         if (supporterCount >= 5 && totalCollected >= 15)
         {
             lvl4.SetActive(true);
             lvl3.SetActive(false);
+            SFXFactory.Instance.PlayLevelUp();
         }
     }
 
