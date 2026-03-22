@@ -20,6 +20,7 @@ public class TrashPickup : MonoBehaviour
             else
             {
                 Debug.Log("Inventory Full"); // cant add
+                SFXFactory.Instance.PlaynoPickUp();
             }
         }
     }

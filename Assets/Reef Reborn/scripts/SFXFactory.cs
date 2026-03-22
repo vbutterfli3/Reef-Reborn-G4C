@@ -32,7 +32,7 @@ public class SFXFactory : MonoBehaviour
     public void PlayLevelUp(float volume = 1f) => Play(levelUp, volume);
     public void PlayClip2(float volume = 1f) => Play(throwOuttrash, volume);
     public void PlayClip3(float volume = 1f) => Play(wholeGameAudio, volume);
-    public void PlayClip4(float volume = 1f) => Play(noPickUp, volume);
+    public void PlaynoPickUp(float volume = 1f) => Play(noPickUp, volume);
     public void PlayClip5(float volume = 1f) => Play(clip5, volume);
 
     private void Play(AudioClip clip, float volume)
