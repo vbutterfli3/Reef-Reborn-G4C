@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MenuLevel.unity
     guid: 2fa55462fc719a848b33dd6097f67562
+  - enabled: 1
+    path: Assets/Reef Reborn/Scenes/Menu Scene.unity
+    guid: 9a474f12b8c7d044e9ce37fb2c461cff
+  - enabled: 1
+    path: Assets/Reef Reborn/Scenes/Intro Scene.unity
+    guid: 72eb6366333e5b84a9b0bba3fa1b9d95
+  - enabled: 1
+    path: Assets/Reef Reborn/Scenes/Main Scene.unity
+    guid: 727d253296da88549b743c8fc4ddc675
   - enabled: 0
     path: Assets/Pixel_Quest/Scenes/Pixel_Quest_TestLevel.unity
     guid: 2cda990e2423bbf4892e6590ba056729
@@ -20,22 +29,22 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Geo_Quest/Scenes/Level2.unity
     guid: 8e2698bb41a549d49ae65721da79e6a3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Victor Folder/Menu.unity
     guid: ecfcc0e879ef5cd4a8518ef682470824
-  - enabled: 1
+  - enabled: 0
     path: Assets/Kai/Kai Scenes/Tokyo.unity
     guid: d97216f92d36e8346bdcd68f8646474d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Jayden Scenes/KaiEndTransition.unity
     guid: 84418fd7f6d692a4e87243d6fc544f8e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Madina/Madina Scenes/MadinaScene.unity
     guid: 0f27e18766710574db03de5bc32adf9c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Jayden Scenes/MadinaEndTransition.unity
     guid: b0d1c3b2ccc342043bfc601b9e3531b5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Vanessa/Vanessa Things/Vanessa Scenes/VanessaSceneTimeSq.unity
     guid: b3ec2e276e1643c4dbe85ee4955e1434
   m_configObjects: {}
