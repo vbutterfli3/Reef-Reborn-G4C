@@ -24,6 +24,8 @@ public class PlayerInventory : MonoBehaviour
     public GameObject wall1;
     public GameObject wall3;
 
+    public GameObject afterLvl1Fade;
+
 
 
 
@@ -53,6 +55,7 @@ public class PlayerInventory : MonoBehaviour
         trashtext.text = currentSlots + "/" + maxSlots;
         if (totalCollected >= 15)
         {
+            afterLvl1Fade.SetActive(true);
             lvl2.SetActive(true);
             wall1.SetActive(false);
             lvl1.SetActive(false);
