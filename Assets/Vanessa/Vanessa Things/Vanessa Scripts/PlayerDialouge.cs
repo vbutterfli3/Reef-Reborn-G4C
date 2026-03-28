@@ -30,6 +30,7 @@ public class PlayerDialogue : MonoBehaviour
                 isSpeaking = false;
                 _talkPanel.SetActive(false);
                 Physics2D.simulationMode = SimulationMode2D.FixedUpdate;
+                canSpeak = false; 
             }
             else
             {

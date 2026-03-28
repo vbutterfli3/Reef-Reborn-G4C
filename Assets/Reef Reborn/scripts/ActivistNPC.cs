@@ -6,8 +6,10 @@ public class ActivistNPC : MonoBehaviour
 {
     public PlayerInventory playerinv;
     public GameObject TalkIcon;
-    bool AlreadyTalked = false;
+    public  bool AlreadyTalked = false;
     public float interactDistance = 3f;
+  
+
     void Update()
     {
         float distance = Vector3.Distance(transform.position, playerinv.transform.position);
@@ -15,11 +17,11 @@ public class ActivistNPC : MonoBehaviour
         if (distance < interactDistance && Input.GetKeyDown(KeyCode.E) && !AlreadyTalked)
         {
             playerinv.TalkedToActivist = true;
-            AlreadyTalked = false;
+            AlreadyTalked = true;
 
             GetComponent<CircleCollider2D>().enabled = false;
             TalkIcon.SetActive(false);
+            playerinv.Level();
+            }
         }
-
     }
-}

@@ -26,6 +26,8 @@ public class PlayerInventory : MonoBehaviour
 
     public GameObject afterLvl1Fade;
 
+    bool threwTrashOneOut = false;
+    bool triggerLevel2 = false;
 
 
 
@@ -48,28 +50,36 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
-    public void ThrowOutTrash ()
+    public void ThrowOutTrash()
     {
         totalCollected += currentSlots;
         currentSlots = 0;
         trashtext.text = currentSlots + "/" + maxSlots;
-        if (totalCollected >= 15)
+        if (totalCollected >= 20 && !threwTrashOneOut)
         {
             afterLvl1Fade.SetActive(true);
             lvl2.SetActive(true);
             wall1.SetActive(false);
             lvl1.SetActive(false);
+            threwTrashOneOut = true; 
             SFXFactory.Instance.PlayLevelUp();
         }
+    }
+       
+
+    public void Level()
+    {
+       
         Debug.Log("Activist: " + TalkedToActivist + " | Mayor: " + TalkedToMayor);
-        if (TalkedToActivist && TalkedToMayor)
+        if (TalkedToActivist && TalkedToMayor && !triggerLevel2)
         {
             lvl3.SetActive(true);
             lvl2.SetActive(false);
+            triggerLevel2 = true;
             SFXFactory.Instance.PlayLevelUp();
 
         }
-        if (supporterCount >= 5)
+        if ( supporterCount >= 5)
         {
             wall3.SetActive(true);
             lvl4.SetActive(true);
@@ -79,14 +89,11 @@ public class PlayerInventory : MonoBehaviour
     }
 
     public void ChangeSprite(bool spritestate)
-    { 
-            ESprite.enabled = spritestate;
-   }
-
-
-    // Update is called once per frame
-    void Update()
     {
-        
+        ESprite.enabled = spritestate;
     }
+
+
 }
+
+

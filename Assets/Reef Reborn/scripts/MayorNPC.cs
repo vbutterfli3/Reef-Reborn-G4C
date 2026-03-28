@@ -6,7 +6,7 @@ public class MayorNPC : MonoBehaviour
 {
     public PlayerInventory playerinv;
     public GameObject TalkIcon;
-    bool AlreadyTalked = false;
+   public bool AlreadyTalked = false;
     public float interactDistance = 3f;
     void Update()
     {
@@ -16,9 +16,11 @@ public class MayorNPC : MonoBehaviour
         {
             playerinv.TalkedToMayor = true;
             AlreadyTalked = true;
+
             GetComponent<CircleCollider2D>().enabled = false;
             TalkIcon.SetActive(false);
 
+            playerinv.Level();
         }
     }
 }
