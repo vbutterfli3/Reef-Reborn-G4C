@@ -203,8 +203,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177, y: -484}
-  m_SizeDelta: {x: 264, y: 50}
+  m_AnchoredPosition: {x: 169, y: -484}
+  m_SizeDelta: {x: 441.33, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &300087906
 Animator:
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '< Click Any Key To Start > '
+  m_text: '< Click The Space Bar To Start > '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82ebfdf9253993f42af6b7a45a127937, type: 2}
   m_sharedMaterial: {fileID: 4659790137378717907, guid: 82ebfdf9253993f42af6b7a45a127937, type: 2}

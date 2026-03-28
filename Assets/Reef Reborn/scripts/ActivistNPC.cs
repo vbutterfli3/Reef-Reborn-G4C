@@ -5,20 +5,21 @@ using UnityEngine;
 public class ActivistNPC : MonoBehaviour
 {
     public PlayerInventory playerinv;
+    public GameObject TalkIcon;
     bool AlreadyTalked = false;
-
-    // Update is called once per frame
+    public float interactDistance = 3f;
     void Update()
     {
-        if (PlayerIsNearby() && Input.GetKeyDown(KeyCode.E) && !AlreadyTalked)
+        float distance = Vector3.Distance(transform.position, playerinv.transform.position);
+
+        if (distance < interactDistance && Input.GetKeyDown(KeyCode.E) && !AlreadyTalked)
         {
             playerinv.TalkedToActivist = true;
             AlreadyTalked = false;
+
+            GetComponent<CircleCollider2D>().enabled = false;
+            TalkIcon.SetActive(false);
         }
 
-        bool PlayerIsNearby()
-        {
-            return true;
-        }
     }
 }

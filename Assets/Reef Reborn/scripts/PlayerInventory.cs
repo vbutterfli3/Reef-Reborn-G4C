@@ -22,8 +22,8 @@ public class PlayerInventory : MonoBehaviour
     
 
     public GameObject wall1;
-    
-    
+    public GameObject wall3;
+
 
 
 
@@ -51,22 +51,24 @@ public class PlayerInventory : MonoBehaviour
         totalCollected += currentSlots;
         currentSlots = 0;
         trashtext.text = currentSlots + "/" + maxSlots;
-        if (totalCollected >= 5)
+        if (totalCollected >= 15)
         {
             lvl2.SetActive(true);
             wall1.SetActive(false);
             lvl1.SetActive(false);
             SFXFactory.Instance.PlayLevelUp();
         }
-        if (TalkedToActivist && TalkedToMayor && totalCollected >= 10)
+        Debug.Log("Activist: " + TalkedToActivist + " | Mayor: " + TalkedToMayor);
+        if (TalkedToActivist && TalkedToMayor)
         {
             lvl3.SetActive(true);
             lvl2.SetActive(false);
             SFXFactory.Instance.PlayLevelUp();
 
         }
-        if (supporterCount >= 5 && totalCollected >= 15)
+        if (supporterCount >= 5)
         {
+            wall3.SetActive(true);
             lvl4.SetActive(true);
             lvl3.SetActive(false);
             SFXFactory.Instance.PlayLevelUp();

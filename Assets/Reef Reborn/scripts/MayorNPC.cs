@@ -5,20 +5,20 @@ using UnityEngine;
 public class MayorNPC : MonoBehaviour
 {
     public PlayerInventory playerinv;
+    public GameObject TalkIcon;
     bool AlreadyTalked = false;
-
-    // Update is called once per frame
+    public float interactDistance = 3f;
     void Update()
     {
-        if (PlayerIsNearby() && Input.GetKeyDown(KeyCode.E) && !AlreadyTalked)
+        float distance = Vector3.Distance(transform.position, playerinv.transform.position);
+
+        if (distance < interactDistance && Input.GetKeyDown(KeyCode.E) && !AlreadyTalked)
         {
             playerinv.TalkedToMayor = true;
-            AlreadyTalked = false;
-        }
+            AlreadyTalked = true;
+            GetComponent<CircleCollider2D>().enabled = false;
+            TalkIcon.SetActive(false);
 
-        bool PlayerIsNearby()
-        {
-            return true;
         }
     }
 }

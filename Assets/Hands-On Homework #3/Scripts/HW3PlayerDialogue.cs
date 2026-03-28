@@ -44,7 +44,7 @@ public class HW3PlayerDialogue : MonoBehaviour
             isSpeaking = true;
             _talkPanel.SetActive(true);
             _talkIndex = 0;
-            _talkText.text = dialogue[_talkIndex]; 
+            _talkText.text = dialogue[_talkIndex];
         }
     }
 
@@ -63,4 +63,5 @@ public class HW3PlayerDialogue : MonoBehaviour
         dialogue.Clear();
         dialogue.AddRange(newDialogue);
     }
+
 }

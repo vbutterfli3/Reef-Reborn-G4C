@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FishMove : MonoBehaviour
 {
+
     [Header("Horizontal Movement")]
     public float moveDistance = 2f; // how far it goes from where i put the prefab
     public float speed = 1.5f;
@@ -63,4 +64,5 @@ public class FishMove : MonoBehaviour
         scale.x = Mathf.Abs(scale.x) * (movingRight ? 1 : -1);
         sprite.localScale = scale;
     }
+
 }
