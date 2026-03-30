@@ -14,7 +14,8 @@ public class SFXFactory : MonoBehaviour
     public AudioClip throwOuttrash;
     public AudioClip wholeGameAudio;
     public AudioClip noPickUp;
-    public AudioClip clip5;
+    public AudioClip cutsceneAudio;
+    public AudioClip penWrite;
 
     private AudioSource source;
 
@@ -41,7 +42,9 @@ public class SFXFactory : MonoBehaviour
     public void PlayClip2(float volume = 1f) => Play(throwOuttrash, volume);
     public void PlayClip3(float volume = 0.5f) => Play(wholeGameAudio, volume);
     public void PlaynoPickUp(float volume = 1f) => Play(noPickUp, volume);
-    public void PlayClip5(float volume = 1f) => Play(clip5, volume);
+    public void PlayClip5(float volume = 1f) => Play(cutsceneAudio, volume);
+    public void PlaySupporterWrite(float volume = 1f) => Play(penWrite, volume);
+
 
     private void Play(AudioClip clip, float volume)
     {

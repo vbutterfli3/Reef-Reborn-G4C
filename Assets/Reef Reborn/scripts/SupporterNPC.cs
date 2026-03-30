@@ -18,6 +18,8 @@ public class SupporterNPC : MonoBehaviour
             supported = true;
             GetComponent<CircleCollider2D>().enabled = false;
             TalkIcon.SetActive(false);
+            playerinv.Level();
+            SFXFactory.Instance.PlaySupporterWrite();
         }
 
     }
