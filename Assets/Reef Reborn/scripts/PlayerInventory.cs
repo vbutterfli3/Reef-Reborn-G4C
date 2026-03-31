@@ -91,7 +91,7 @@ public class PlayerInventory : MonoBehaviour
         {
             Debug.Log("SHOULD UNLOCK LEVEL 4");
             afterLvl3Fade.SetActive(true);
-            wall3.SetActive(true);
+            wall3.SetActive(false);
             lvl4.SetActive(true);
             lvl3.SetActive(false);
             triggerLevel3 = true;
