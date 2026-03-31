@@ -30,6 +30,7 @@ public class PlayerInventory : MonoBehaviour
 
     bool threwTrashOneOut = false;
     bool triggerLevel2 = false;
+    bool triggerLevel3 = false;
 
 
 
@@ -86,13 +87,14 @@ public class PlayerInventory : MonoBehaviour
 
         }
         
-        if ( supporterCount >= 5)
+        if ( supporterCount >= 5 && !triggerLevel3)
         {
             Debug.Log("SHOULD UNLOCK LEVEL 4");
             afterLvl3Fade.SetActive(true);
             wall3.SetActive(true);
             lvl4.SetActive(true);
             lvl3.SetActive(false);
+            triggerLevel3 = true;
             SFXFactory.Instance.PlayLevelUp();
         }
     }
